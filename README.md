@@ -8,26 +8,26 @@ The content may be anything—a fictitious business website, a personal website 
 
 The purpose of this project is to practice using and demonstrate understanding of:
 
-Git
+**Git**
 * Code locally, push to GitHub
 * Conflict resolution
 
-HTML
+**HTML**
 * Create multi-page static website
 * Demonstrate understanding of all major tags
 
-CSS
+**CSS**
 * Implement responsive design
 * Demonstrate understanding of common properties
 
 ## Requirements
  
-HTML correctness (validation)
-HTML variety (use of many tags)
-Accessibility 
-Responsiveness (media queries)
-CSS correctness (validation)
-CSS variety (use of many properties)
-Team delegation (splitting up of work)
-Consistency between pages (header, footer)
-Code style (indentation)
+* HTML correctness (validation) 
+* HTML variety (use of many tags) 
+* Accessibility 
+* Responsiveness (media queries) 
+* CSS correctness (validation) 
+* CSS variety (use of many properties) 
+* Team delegation (splitting up of work) 
+* Consistency between pages (header, footer) 
+* Code style (indentation) 
