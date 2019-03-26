@@ -1,6 +1,19 @@
-.navigation a{
+*{
+        margin:0;
+        padding: 0;
+}
+ ul {
 
 list-style-type:none;
-
-
+font-family:san-serif;
+text-transform:uppercase;
+display:flex;
+justify-content:flex-end;
+}
+li a{
+    display:inline-block;
+    text-decoration:none;
+    margin:10px;
+}
+.navigation{
 }
