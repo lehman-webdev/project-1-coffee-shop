@@ -1,8 +1,8 @@
 *{
         margin:0;
         padding: 0;
-        
-        
+
+
 }
 
 
@@ -27,20 +27,20 @@ background-color:transparent;
     text-transform: uppercase;
     text-decoration:none;
     font-weight:bold;
-    
-    padding: 2rem;   
-    
+
+    padding: 2rem;
+
 }
 
 .logo{
-    background-image:url(images/coffeelogo11.png);  
+    background-image:url(images/coffeelogo11.png);
     padding:4rem;
     background-repeat:no-repeat;
-    
+
 
 }
 
-    
+
 
 
 .navbar li a:hover{
@@ -56,7 +56,7 @@ background-image:url(images/turquoise-cup-with-coffee-beans-on-a-wooden-8LF7PD5.
 padding:225px;
 background-repeat:no-repeat;
 background-size:100%;
-height: 100%; 
+height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -64,7 +64,7 @@ height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-        
+
 
 
 .logo2{
@@ -74,7 +74,7 @@ height: 100%;
   margin-top:60px;
 
 
-  
+
 }
 
 
@@ -82,7 +82,7 @@ height: 100%;
 
 background-image:url(images/two-multiethnic-young-friends-enjoying-coffee-PTF2YQB.jpg);
 
-height: 100%; 
+height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -112,11 +112,61 @@ text-transform:uppercase;
 
 
 }
+/*
+*  About me page styling
+*/
 
 
+/*
+*  Hero Image Styling Below the Header. *
+*  1. VW and VH helps make the hero image section 100% of browser width and height.
+*  2. Usage of Flexbox to ensure items within HeroImage are centered.
+*  3.  Background Image Styling
+*/
+.heroImage {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
 
+/*
+  Background Hero Image Styling
+*/
+  background-image: url('images/aerial-view-of-various-coffee-payvegl.jpg');
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
 
+/*
+  Mission Title "A+ Mission" Styling
+*/
+.missionTitle {
+  font-family: 'Yellowtail', cursive;
+  font-size: 5em;
+  padding:3px;
 
+}
+/*
+  Styling for Mission Statement Section underneath HeroImage Section
+*/
 
-
-
+.missionStatement {
+  /*Text and background styling*/
+  background-color:#905858;
+  text-align:center;
+  font-size: 25px;
+  font-family: 'PT Sans Narrow';
+  /*Adding Space between the bottom, top and right of the page and the text */
+  padding: 50px 20px;
+  margin-bottom: 160px;
+  /*Used to create space between elements */
+  line-height: 200%;
+  /* Used to eliminate white space from vh vw */
+  margin: 0 auto;
+}
