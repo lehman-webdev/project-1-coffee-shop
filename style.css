@@ -9,41 +9,53 @@
 .navbar{
 color:white;
 background-color:transparent;
-
+position: fixed;
+left: 0;
+right: 0;
+height: 10em;
+width: -webkit-fill-available;
 
 }
-
-.navbar ul {
+.right-navbar
+{
+    position: absolute;
+    right:0em;
+    top: 5em;
+    line-height: 3em;
+}
+.right-navbar ul {
     display:flex;
    list-style-type:none;
    justify-content:flex-end;
 }
 
 
-.navbar ul li a{
+.right-navbar ul li a{
 
     color:brown;
     font-family:sans-serif;
     text-transform: uppercase;
     text-decoration:none;
     font-weight:bold;
-
     padding: 2rem;
-
+    height: 5em;
+    font-size: x-large;
 }
 
 .logo{
     background-image:url(images/coffeelogo11.png);
     padding:4rem;
     background-repeat:no-repeat;
-
-
+    position: absolute;
+    left: 0em;
+    height: 3em;
+    width: -webkit-fill-available;
 }
 
 
 
 
-.navbar li a:hover{
+.right-navbar li a:hover{
     text-decoration:overline;
 
 
