@@ -1,6 +1,10 @@
- html,body {
-   height: 100%; margin: 0px; padding: 0px;
- }
+*{
+        margin:0;
+        padding: 0;
+
+
+}
+
 
 .navbar{
 color:white;
@@ -108,7 +112,6 @@ text-transform:uppercase;
 
 
 }
-
 /*
 *  About me page styling
 */
