@@ -24,7 +24,7 @@ background-color:white;
 .navbar ul li a{
 
     color:brown;
-    font-family:'Pacifico', cursive;
+    font-family:sans-serif;
     text-transform: uppercase;
     text-decoration:none;
     font-weight:bold;
@@ -81,7 +81,7 @@ margin-bottom:10px;
 .imageText2{
   text-align:center;
   font-size:20px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Shadows Into Light', cursive;
   
 }
 .beanline img{
@@ -187,7 +187,7 @@ background-size:100%;
 footer{
 
 background-color:black;
-padding-bottom:90px;
+padding-bottom:25em;
 padding-top:40px;
 background-size:100%;
 color:white;
@@ -196,44 +196,49 @@ color:white;
 .box h2{
 
   text-transform:uppercase;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:25px;
   
   
 }
 
  .box2 h2 {
   text-transform:uppercase;
-  font-family:'Pacifico', cursive;
+  font-family:'Shadows Into Light', cursive;
+  font-size:25px;
     
  }
 
  .box{
+   float:left;
 
-  float:left;
-  margin:10px;
-  padding:10px;
+  margin-left:10em;
+  padding:20px;
+  
  }
 
  .box2{
-   float:left;
-   margin:9.5px;
-   padding:10px;
+   float:right;
+   margin-right:10em;
+   padding-left:20px;
   
  }
 
  .box p{
-   font-family:'Pacifico', cursive;
+   font-family:'Shadows Into Light', cursive;
+   font-size: 20px;
  }
 
  .box2 p{
-   font-family:'Pacifico', cursive;
+   font-family:'Shadows Into Light', cursive;
+   font-size:20px;
  }
  @media only screen and (max-device-width: 1366px) {
   .middleImage,.topImage {
     background-attachment: scroll;
   }
 }
-
+/*
 form span{
   font-size:25px;
   margin:1px;
