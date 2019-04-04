@@ -14,6 +14,7 @@ left: 0;
 right: 0;
 height: 10em;
 width: -webkit-fill-available;
+z-index: 100;
 
 }
 .right-navbar
