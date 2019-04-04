@@ -1,12 +1,9 @@
 *{
         margin:0;
         padding: 0;
-
-
 }
 
-
-.navbar{
+.navbar {
 color:white;
 background-color:white;
 position: fixed;
@@ -15,8 +12,8 @@ right: 0;
 height: 10em;
 width: -webkit-fill-available;
 z-index: 100;
-
 }
+
 .right-navbar
 {
     position: absolute;
@@ -30,7 +27,6 @@ z-index: 100;
    justify-content:flex-end;
 }
 
-
 .right-navbar ul li a{
 
     color:brown;
@@ -42,6 +38,7 @@ z-index: 100;
     height: 5em;
     font-size: x-large;
 }
+
 
 .logo{
     background-image:url(images/coffeelogo11.png);
@@ -55,14 +52,9 @@ z-index: 100;
 
 
 
-
 .right-navbar li a:hover{
     text-decoration:overline;
-
-
 }
-
-
 
 .topImage{
 background-image:url(images/turquoise-cup-with-coffee-beans-on-a-wooden-8LF7PD5.jpg);
@@ -78,15 +70,11 @@ height: 100%;
   background-size: cover;
 }
 
-
-
 .logo2{
     display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top:60px;
-
-
 
 }
 
@@ -122,9 +110,10 @@ font-size:50px;
 
 font-family:serif;
 text-transform:uppercase;
-
-
 }
+
+
+
 /*
 *  About me page styling
 */
@@ -182,9 +171,4 @@ text-transform:uppercase;
   line-height: 200%;
   /* Used to eliminate white space from vh vw */
   margin: 0 auto;
-}
-
- .footerSection {
-  padding: 20px 10px;
-
 }
