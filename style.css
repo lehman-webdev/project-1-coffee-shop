@@ -182,3 +182,9 @@ text-transform:uppercase;
   line-height: 200%;
   /* Used to eliminate white space from vh vw */
   margin: 0 auto;
+}
+
+ .footerSection {
+  padding: 20px 10px;
+
+}
