@@ -160,49 +160,53 @@
 
   footer{
   background-color:black;
-  padding-bottom:25em;
+  padding-bottom:10em;
   padding-top:40px;
   background-size:100%;
   color:white;
   }
 
   .box h2{
-    text-transform:uppercase;
-    font-family: 'Shadows Into Light', cursive;
-    font-size:25px;
+  text-transform:uppercase;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:25px;
 
 
   }
-   .box2 h2 {
-    text-transform:uppercase;
-    font-family:'Shadows Into Light', cursive;
-    font-size:25px;
+  .box2 h2 {
+  text-transform:uppercase;
+  font-family:'Shadows Into Light', cursive;
+  font-size:25px;
 
-   }
-   .box{
-     float:left;
-    margin-left:10em;
-    padding:20px;
+  }
+  .box{
+  float:left;
+  margin-left:10em;
+  padding:20px;
 
-   }
-   .box2{
-     float:right;
-     margin-right:10em;
-     padding-left:20px;
+  }
+  .box2{
+  float:right;
+  margin-right:10em;
+  padding-left:20px;
 
-   }
-   .box p{
-     font-family:'Shadows Into Light', cursive;
-     font-size: 20px;
-   }
-   .box2 p{
-     font-family:'Shadows Into Light', cursive;
-     font-size:20px;
-   }
-   @media only screen and (max-device-width: 1366px) {
-    .middleImage,.topImage {
-      background-attachment: scroll;
-    }
+  }
+  .box p{
+  font-family:'Shadows Into Light', cursive;
+  font-size: 20px;
+  }
+  .box2 p{
+  font-family:'Shadows Into Light', cursive;
+  font-size:20px;
+  }
+  div iframe{
+    margin-left:7em;
+
+  }
+  @media only screen and (max-device-width: 1366px) {
+  .middleImage,.topImage {
+  background-attachment: scroll;
+  }
   }
 
 
