@@ -143,7 +143,7 @@ text-transform: uppercase;
 
 }
 .middleImage {
-background-image:url(images/two-multiethnic-young-friends-enjoying-coffee-PTF2YQB.jpg);
+background-image:url(images/laughing-young-african-woman-drinking-fresh-GPJTELV2.jpg);
 height: 100%;
 /* Create the parallax scrolling effect */
 background-attachment: fixed;
@@ -160,7 +160,7 @@ background-size:100%;
 
 footer{
 background-color:black;
-padding-bottom:25em;
+padding-bottom:10em;
 padding-top:40px;
 background-size:100%;
 color:white;
@@ -190,6 +190,7 @@ float:right;
 margin-right:10em;
 padding-left:20px;
 
+
 }
 .box p{
 font-family:'Shadows Into Light', cursive;
@@ -198,6 +199,11 @@ font-size: 20px;
 .box2 p{
 font-family:'Shadows Into Light', cursive;
 font-size:20px;
+}
+div iframe{
+  margin-left:7em;
+  padding-right:10px;
+
 }
 @media only screen and (max-device-width: 1366px) {
 .middleImage,.topImage {
