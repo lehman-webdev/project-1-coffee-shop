@@ -143,13 +143,13 @@ transform:scale(1.5);
 
 }
 .middleImage {
-background-image:url(images/two-multiethnic-young-friends-enjoying-coffee-PTF2YQB.jpg);
+background-image:url(images/laughing-young-african-woman-drinking-fresh-GPJTELV.jpg);
 height: 100%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 padding-top:350px;
 padding-bottom:200px;
 margin-top:80px;
@@ -160,50 +160,55 @@ background-size:100%;
 
 footer{
 background-color:black;
-padding-bottom:25em;
+padding-bottom:10em;
 padding-top:40px;
 background-size:100%;
 color:white;
-position:relative;
 }
 
 .box h2{
-  text-transform:uppercase;
-  font-family: 'Shadows Into Light', cursive;
-  font-size:25px;
+text-transform:uppercase;
+font-family: 'Shadows Into Light', cursive;
+font-size:25px;
 
 
 }
- .box2 h2 {
-  text-transform:uppercase;
-  font-family:'Shadows Into Light', cursive;
-  font-size:25px;
+.box2 h2 {
+text-transform:uppercase;
+font-family:'Shadows Into Light', cursive;
+font-size:25px;
 
- }
- .box{
-   float:left;
-  margin-left:10em;
-  padding:20px;
+}
+.box{
+float:left;
+margin-left:10em;
+padding:20px;
 
- }
- .box2{
-   float:right;
-   margin-right:10em;
-   padding-left:20px;
+}
+.box2{
+float:right;
+margin-right:10em;
+padding-left:20px;
 
- }
- .box p{
-   font-family:'Shadows Into Light', cursive;
-   font-size: 20px;
- }
- .box2 p{
-   font-family:'Shadows Into Light', cursive;
-   font-size:20px;
- }
- @media only screen and (max-device-width: 1366px) {
-  .middleImage,.topImage {
-    background-attachment: scroll;
-  }
+
+}
+.box p{
+font-family:'Shadows Into Light', cursive;
+font-size: 20px;
+}
+.box2 p{
+font-family:'Shadows Into Light', cursive;
+font-size:20px;
+}
+div iframe{
+  margin-left:7em;
+  padding-right:10px;
+
+}
+@media only screen and (max-device-width: 1366px) {
+.middleImage,.topImage {
+background-attachment: scroll;
+}
 }
 
 
@@ -232,7 +237,7 @@ padding-top:5em;
 padding-left: 10em;
 }
 .drinks {
-	box-shadow: 0px 0px 20px 0px #AAA;
+  -webkit-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.75);
 margin:10px;
 border: 1px solid black;
 float: left;
