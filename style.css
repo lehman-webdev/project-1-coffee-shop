@@ -6,20 +6,22 @@
 }
 
 .logo{
-    background-image:url(images/coffeelogo11.png);
+    /* background-image:url(images/coffeelogo11.png);
     padding:4rem;
-    background-repeat:no-repeat;
-
+    background-repeat:no-repeat; */
+    height: auto;
 }
 
 .navbar{
-color:white;
+/* color:white; */
 background-color:white;
 position: fixed;
-left: 0;
-right: 0;
-height: 10em;
-width: -webkit-fill-available;
+/* left: 0;
+right: 0; */
+/* height: 10em; */
+/* width: -webkit-fill-available; */
+width: 100%;
+top: 0;
 z-index: 100;
 
 }
@@ -205,6 +207,8 @@ div iframe{
   padding-right:10px;
 
 }
+
+/* differnt media sizing */
 @media only screen and (max-device-width: 1366px) {
 .middleImage,.topImage {
 background-attachment: scroll;
