@@ -253,7 +253,8 @@ tr {
 .menu {
 
 /* padding-top:10em; */
-height: 100vh;
+/* height: 100vh; */
+height: 900px;
 background-image:url(images/turquoise-cup-with-coffee-beans-on-a-wooden-8LF7PD5.jpg);
 background-size:1500px 900px;
 background-repeat: no-repeat;
