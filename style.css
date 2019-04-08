@@ -208,7 +208,8 @@ font-size:20px;
 div iframe{
   margin-left:7em;
   padding-right:10px;
-
+  height: 300px !important;
+  width: 300px !important;
 }
 
 /* differnt media sizing */
