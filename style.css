@@ -217,48 +217,48 @@ background-attachment: scroll;
 Menu
 */
 
-
-.drinkTitle {
-text-align:center;
-font-family: Roboto;
-font-size: 2em;
-padding-top: 3em;
-}
-.menu {
-width: 100%;
-padding-top:8em;
-padding-bottom:8em;
-}
-.drinkMenu {
-padding-left: 5em;
-display: grid;
-grid-template-columns: auto auto auto;
-}
-.drinks {
-  -webkit-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.75);
-margin:10px;
-border: 1px solid black;
-width:380px;
+table {
+  table-layout: fixed;
+    -webkit-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.75);
+  width: 50%;
+  position:absolute;
+  right:20em;
+  border-collapse: collapse;
+  border: 2px solid black;
+  background-color:#c19191;
 }
 
-.drinks img {
-width: 100%;
-height: auto;
-
+th, td {
+  padding: 20px;
+  letter-spacing: 2px;
+  font-family:Roboto;
 }
 
-.drinkname {
-text-align: center;
-padding: 15px;
-color:black;
-}
-
-.drinkPrice {
+tr {
   text-align: center;
-  padding: 15px;
-  color:green;
+}
+
+.menu {
+
+padding-top:10em;
+height: 100vh;
+background-image:url(images/turquoise-cup-with-coffee-beans-on-a-wooden-8LF7PD5.jpg);
+background-size:1500px 900px;
+background-repeat: no-repeat;
 
 }
+
+tbody tr:nth-child(odd) {
+  background-color: #aa7070;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #8b5d5d;
+}
+
+
+
+
 
 /*
 *  About me page styling
