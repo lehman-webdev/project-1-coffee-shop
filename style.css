@@ -220,8 +220,9 @@ Menu
 
 .drinkTitle {
 text-align:center;
-font-family: Yellowtail;
-font-size: 5em;
+font-family: Roboto;
+font-size: 2em;
+padding-top: 3em;
 }
 .menu {
 width: 100%;
@@ -232,9 +233,7 @@ height: 100vh;
 }
 .drinkMenu {
 position: absolute;
-
-padding-top:5em;
-padding-left: 10em;
+padding-left: 5em;
 }
 .drinks {
   -webkit-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.75);
@@ -254,6 +253,13 @@ height: auto;
 text-align: center;
 padding: 15px;
 color:black;
+}
+
+.drinkPrice {
+  text-align: center;
+  padding: 15px;
+  color:green;
+
 }
 
 /*
