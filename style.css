@@ -1,253 +1,259 @@
-  *{
-          margin:0;
-          padding: 0;
+*{
+        margin:0;
+        padding: 0;
+}
 
 
-  }
+/*
+index page
+*/
+.logo{
+    background-image:url(images/coffeelogo11.png);
+    padding:4rem;
+    background-repeat:no-repeat;
 
-  .logo{
-      background-image:url(images/coffeelogo11.png);
-      padding:4rem;
-      background-repeat:no-repeat;
+}
 
-  }
+.navbar{
+color:white;
+background-color:white;
+position: fixed;
+left: 0;
+right: 0;
+height: 10em;
+width: -webkit-fill-available;
+z-index: 100;
 
-  .navbar{
-  color:white;
-  background-color:white;
-  position: relative;
-  left: 0;
-  right: 0;
-  height: 10em;
-  width: -webkit-fill-available;
-  z-index: 100;
-
-  }
-  .right-navbar
-  {
-      position: absolute;
-      right:0em;
-      top: 5em;
-      line-height: 3em;
-  }
-  .right-navbar ul {
-      display:flex;
-     list-style-type:none;
-     justify-content:flex-end;
-  }
+}
+.right-navbar
+{
+    position: absolute;
+    right:0em;
+    top: 5em;
+    line-height: 3em;
+}
+.right-navbar ul {
+    display:flex;
+   list-style-type:none;
+   justify-content:flex-end;
+}
 
 
-  .right-navbar ul li a{
+.right-navbar ul li a{
 
-      color:brown;
-      font-family:sans-serif;
-      text-transform: uppercase;
-      text-decoration:none;
-      font-weight:bold;
-      padding: 2rem;
-      height: 5em;
-      font-size: x-large;
-  }
+    color:brown;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight:bold;
+    padding: 2rem;
+    height: 5em;
+    font-size: x-large;
+}
 
-  .topImage{
-  background-image:url(images/turquoise-cup-with-coffee-beans-on-a-wooden-8LF7PD5.jpg);
-  padding:225px;
-  background-repeat:no-repeat;
-  background-size:100%;
-  height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.topImage{
+background-image:url(images/turquoise-cup-with-coffee-beans-on-a-wooden-8LF7PD5.jpg);
+padding:225px;
+background-repeat:no-repeat;
+background-size:100%;
+height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .imageText{
+.imageText{
+text-align:center;
+font-size:50px;
+font-family:'Indie Flower', cursive;
+margin-top:90px;
+margin-bottom:10px;
+}
+ .imageText span {
+  color:rgb(182, 23, 23);
+}
+.imageText2{
   text-align:center;
-  font-size:50px;
+  font-size:20px;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+.beanline img{
+display:block;
+height:10%;
+width:10%;
+margin-left: auto;
+margin-right: auto;
+margin-top:0px;
+
+}
+
+.grid-wrapper{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 300px, 200px;
+  grid-gap:1rem;
+  height:100vh;
+  width:100vw;
+  justify-items:center;
+  align-items:center;
+}
+.grid-item{
+  height:100%;
+  width:100%;
+  background:transparent;
+  justify-content:center;
+}
+.grid-item2{
+  display:flex;
+  align-items:center;
+  /*justify-items:center;*/
+}
+.grid-item1{
+  display:flex;
+  align-items:center;
+}
+.grid-item1 p{
+  font-size:30px;
+  margin:30px;
   font-family:'Indie Flower', cursive;
-  margin-top:90px;
-  margin-bottom:10px;
-  }
-   .imageText span {
-    color:rgb(182, 23, 23);
-  }
-  .imageText2{
-    text-align:center;
-    font-size:20px;
-    font-family: 'Shadows Into Light', cursive;
+  font-weight: bolder;
+  text-transform: uppercase;
 
-  }
-  .beanline img{
-  display:block;
-  height:10%;
-  width:10%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:0px;
-
-  }
-
-  .grid-wrapper{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 300px, 200px;
-    grid-gap:1rem;
-    height:100vh;
-    width:100vw;
-    justify-items:center;
-    align-items:center;
-  }
-  .grid-item{
-    height:100%;
-    width:100%;
-    background:transparent;
-    justify-content:center;
-  }
-  .grid-item2{
-    display:flex;
-    align-items:center;
-    /*justify-items:center;*/
-  }
-  .grid-item1{
-    display:flex;
-    align-items:center;
-  }
-  .grid-item1 p{
-    font-size:30px;
-    margin:30px;
-    font-family:'Indie Flower', cursive;
-    font-weight: bolder;
-    text-transform: uppercase;
-
-  }
-  .grid-item3{
-    display:flex;
-    align-items:center;
-  }
-  .grid-item1 img:hover{
+}
+.grid-item3{
+  display:flex;
+  align-items:center;
+}
+.grid-item1 img:hover{
+transform:scale(1.5);
+}
+.grid-item2 img:hover{
   transform:scale(1.5);
-  }
-  .grid-item2 img:hover{
-    transform:scale(1.5);
-  }
-  .grid-item3 img:hover{
-    transform:scale(1.5);
-  }
-  .grid-item3 p{
-    font-size:30px;
-    margin:35px;
-    font-family:'Indie Flower', cursive;
-    font-weight: bolder;
-    text-transform: uppercase;
+}
+.grid-item3 img:hover{
+  transform:scale(1.5);
+}
+.grid-item3 p{
+  font-size:30px;
+  margin:35px;
+  font-family:'Indie Flower', cursive;
+  font-weight: bolder;
+  text-transform: uppercase;
 
-  }
-  .middleImage {
-  background-image:url(images/two-multiethnic-young-friends-enjoying-coffee-PTF2YQB.jpg);
-  height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  padding-top:350px;
-  padding-bottom:200px;
-  margin-top:80px;
-  margin-bottom:0.1px;
-  background-repeat:no-repeat;
-  background-size:100%;
-  }
+}
+.middleImage {
+background-image:url(images/laughing-young-african-woman-drinking-fresh-GPJTELV.jpg);
+height: 100%;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top:350px;
+padding-bottom:200px;
+margin-top:80px;
+margin-bottom:0.1px;
+background-repeat:no-repeat;
+background-size:100%;
+}
 
-  footer{
-  background-color:black;
-  padding-bottom:25em;
-  padding-top:40px;
-  background-size:100%;
-  color:white;
-  position:relative;
-  }
+footer{
+background-color:black;
+padding-bottom:10em;
+padding-top:40px;
+background-size:100%;
+color:white;
+}
 
-  .box h2{
-    text-transform:uppercase;
-    font-family: 'Shadows Into Light', cursive;
-    font-size:25px;
+.box h2{
+text-transform:uppercase;
+font-family: 'Shadows Into Light', cursive;
+font-size:25px;
 
 
-  }
-   .box2 h2 {
-    text-transform:uppercase;
-    font-family:'Shadows Into Light', cursive;
-    font-size:25px;
+}
+.box2 h2 {
+text-transform:uppercase;
+font-family:'Shadows Into Light', cursive;
+font-size:25px;
 
-   }
-   .box{
-     float:left;
-    margin-left:10em;
-    padding:20px;
+}
+.box{
+float:left;
+margin-left:10em;
+padding:20px;
 
-   }
-   .box2{
-     float:right;
-     margin-right:10em;
-     padding-left:20px;
+}
+.box2{
+float:right;
+margin-right:10em;
+padding-left:20px;
 
-   }
-   .box p{
-     font-family:'Shadows Into Light', cursive;
-     font-size: 20px;
-   }
-   .box2 p{
-     font-family:'Shadows Into Light', cursive;
-     font-size:20px;
-   }
-   @media only screen and (max-device-width: 1366px) {
-    .middleImage,.topImage {
-      background-attachment: scroll;
-    }
-  }
+
+}
+.box p{
+font-family:'Shadows Into Light', cursive;
+font-size: 20px;
+}
+.box2 p{
+font-family:'Shadows Into Light', cursive;
+font-size:20px;
+}
+div iframe{
+  margin-left:7em;
+  padding-right:10px;
+
+}
+@media only screen and (max-device-width: 1366px) {
+.middleImage,.topImage {
+background-attachment: scroll;
+}
+}
 
 
 /*
 
 Menu
 */
-
-
-.drinkTitle {
-  text-align:center;
-  font-family: Yellowtail;
-  font-size: 5em;
-}
-.menu {
- width: 100%;
- padding-top:8em;
- padding-bottom:8em;
- height: 100vh;
-
-}
-.drinkMenu {
-  position: absolute;
-
-  padding-top:5em;
-  padding-left: 10em;
-}
-.drinks {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width:380px;
+table {
+  table-layout: fixed;
+  width: 50%;
+  position:absolute;
+  right:20em;
+  border-collapse: collapse;
+  border: 2px solid black;
+  background-color:#c19191;
 }
 
-.drinks img {
-  width: 100%;
-  height: auto;
-
+th, td {
+  padding: 20px;
+  letter-spacing: 2px;
+  font-family:Roboto;
 }
 
-.drinkname {
+tr {
   text-align: center;
-  padding: 15px;
-  color:black;
+}
+
+.menu {
+
+padding-top:10em;
+height: 100vh;
+background-image:url(images/turquoise-cup-with-coffee-beans-on-a-wooden-8LF7PD5.jpg);
+background-size:1500px 900px;
+background-repeat: no-repeat;
+
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #aa7070;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #8b5d5d;
 }
 
 /*
@@ -262,85 +268,85 @@ Menu
 *  3.  Background Image Styling
 */
 .heroImage {
-  width: 100vw;
-  height: 100vh;
-  border: 2px solid;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  text-align:center;
+width: 100vw;
+height: 100vh;
+border: 2px solid;
+display: flex;
+justify-content: center;
+align-items:center;
+text-align:center;
 
 /*
-  Background Hero Image Styling
+Background Hero Image Styling
 */
-  background-image: url('images/aerial-view-of-various-coffee-payvegl.jpg');
-  background-size:cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.8;
+background-image: url('images/aerial-view-of-various-coffee-payvegl.jpg');
+background-size:cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+opacity: 0.8;
 }
 
 /*
-  Mission Title "A+ Mission" Styling
+Mission Title "A+ Mission" Styling
 */
 .missionTitle {
-  font-family: 'Yellowtail', cursive;
-  font-size: 5em;
-  padding:3px;
+font-family: 'Yellowtail', cursive;
+font-size: 5em;
+padding:3px;
 
 }
 /*
-  Styling for Mission Statement Section underneath HeroImage Section
+Styling for Mission Statement Section underneath HeroImage Section
 */
 
 .missionStatement {
-  /*Text and background styling*/
-  background-color:#905858;
-  text-align:center;
-  font-size: 25px;
-  font-family: 'PT Sans Narrow';
-  /*Adding Space between the bottom, top and right of the page and the text */
-  padding: 50px 20px;
-  margin-bottom: 160px;
-  /*Used to create space between elements */
-  line-height: 200%;
-  /* Used to eliminate white space from vh vw */
-  margin: 0 auto;
+/*Text and background styling*/
+background-color:#905858;
+text-align:center;
+font-size: 25px;
+font-family: 'PT Sans Narrow';
+/*Adding Space between the bottom, top and right of the page and the text */
+padding: 50px 20px;
+margin-bottom: 160px;
+/*Used to create space between elements */
+line-height: 200%;
+/* Used to eliminate white space from vh vw */
+margin: 0 auto;
 }
 
 
 /* Team Page */
 .staff-members {
-  width: 100%;
-  padding-top: 8em;
+width: 100%;
+padding-top: 8em;
 }
 .staff-members-inner{
-  display: flex;
-  padding: 5em;
-  padding-bottom: 0%
+display: flex;
+padding: 5em;
+padding-bottom: 0%
 }
 .staff {
-  /* float: left; */
-  text-align: center;
-  /* width: 15em; */
-  margin: 3%
+/* float: left; */
+text-align: center;
+/* width: 15em; */
+margin: 3%
 }
 .staff img {
-  width: 100%;
-  height: auto;
-  border-radius: 5%;
+width: 100%;
+height: auto;
+border-radius: 5%;
 }
 .social-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .social-button{
-  padding: 1%;
+padding: 1%;
 }
 .social-button-icon img:hover {
-  opacity: 0.8;
+opacity: 0.8;
 }
 .social-button-icon img::after {
 
@@ -348,42 +354,42 @@ Menu
 
 /* Contact Us section */
 .contact-us {
-  margin: 0 auto;
-  /* margin: 3em; */
-  background-color: #ecdcdc;
-  padding: 0.25em;
-  border-radius: 1em;
-  max-width: calc(100% - 20em);
-  /* max-height: 100%; */
-  /* float: left; */
+margin: 0 auto;
+/* margin: 3em; */
+background-color: #ecdcdc;
+padding: 0.25em;
+border-radius: 1em;
+max-width: calc(100% - 20em);
+/* max-height: 100%; */
+/* float: left; */
 }
 .container
 {
-  padding: 2em;
-  height: 25em;
+padding: 2em;
+height: 25em;
 }
 .contactTitle {
-  padding-bottom: 3%;
-  font-family: 'Yellowtail', cursive;
-  font-size: 2em;
+padding-bottom: 3%;
+font-family: 'Yellowtail', cursive;
+font-size: 2em;
 }
 .container label {
-  font-family: 'PT Sans Narrow';
+font-family: 'PT Sans Narrow';
 }
 .container input, textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1.5px;
-  border-radius: 10px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  /* font-size: 25px; */
-  font-family: 'PT Sans Narrow';
+width: 100%;
+padding: 10px;
+border: 1.5px;
+border-radius: 10px;
+margin-top: 5px;
+margin-bottom: 10px;
+box-sizing: border-box;
+/* font-size: 25px; */
+font-family: 'PT Sans Narrow';
 }
 #submit {
-  width: auto;
-  background-color: #905858;
-  text-align: center;
-  font-size: x-large;
+width: auto;
+background-color: #905858;
+text-align: center;
+font-size: x-large;
 }
