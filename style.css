@@ -331,16 +331,17 @@ padding-top: 8em;
 .staff-members-inner{
 display: flex;
 padding: 5em;
-padding-bottom: 0%
+padding-bottom: 0%;
+height:auto;
 }
 .staff {
 /* float: left; */
 text-align: center;
 /* width: 15em; */
-margin: 3%
+margin: 3%;
 }
 .staff img {
-width: 100%;
+width: 300px;
 height: auto;
 border-radius: 5%;
 }
@@ -362,6 +363,7 @@ opacity: 0.8;
 /* Contact Us section */
 .contact-us {
 margin: 0 auto;
+margin-bottom: 2em;
 /* margin: 3em; */
 background-color: #ecdcdc;
 padding: 0.25em;
