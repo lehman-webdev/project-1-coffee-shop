@@ -217,6 +217,11 @@ background-attachment: scroll;
 Menu
 */
 
+.drinkMenu {
+  /* Adds a scroll to the table when the window is smaller */
+  overflow-x: auto;
+}
+
 table {
   table-layout: fixed;
     -webkit-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.75);
@@ -248,10 +253,11 @@ background-repeat: no-repeat;
 
 }
 
+/* CSS selector used to highlight the child of tbody and apply a color to them when the item is odd  */
 tbody tr:nth-child(odd) {
   background-color: #aa7070;
 }
-
+/* CSS selector used to highlight the child of tbody and apply a color to them when the item is even */
 tbody tr:nth-child(even) {
   background-color: #8b5d5d;
 }
