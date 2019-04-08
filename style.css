@@ -264,7 +264,10 @@ tbody tr:nth-child(even) {
 *  About me page styling
 */
 
-
+.aboutBeanline {
+  height:70%;
+  width: 70%;
+}
 /*
 *  Hero Image Styling Below the Header. *
 *  1. VW and VH helps make the hero image section 100% of browser width and height.
