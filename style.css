@@ -15,7 +15,7 @@
 .navbar{
 /* color:white; */
 background-color:white;
-position: fixed;
+position: relative;
 /* left: 0;
 right: 0; */
 /* height: 10em; */
@@ -116,7 +116,7 @@ margin-top:0px;
   align-items:center;
 }
 .grid-item, .grid-item2, .grid-item1 {
-  height: fit-content;
+  height: auto;
 }
 .grid-item1 p{
   font-size:30px;
@@ -247,7 +247,7 @@ tr {
 
 .menu {
 
-padding-top:10em;
+/* padding-top:10em; */
 height: 100vh;
 background-image:url(images/turquoise-cup-with-coffee-beans-on-a-wooden-8LF7PD5.jpg);
 background-size:1500px 900px;
@@ -333,12 +333,13 @@ margin: 0 auto;
 /* Team Page */
 .staff-members {
 width: 100%;
-padding-top: 8em;
+/* padding-top: 8em; */
 }
 .staff-members-inner{
 display: flex;
-padding: 5em;
+padding: 1em;
 padding-bottom: 0%;
+padding-top: 0px;
 height:auto;
 }
 .staff {
@@ -347,10 +348,14 @@ text-align: center;
 /* width: 15em; */
 margin: 3%;
 }
+.staff p, h3 {
+  font-family: Roboto;
+}
 .staff img {
 width: 300px;
 height: auto;
 border-radius: 5%;
+box-shadow: 3px 3px 10px 1px #ccc;
 }
 .social-media {
 display: flex;
@@ -378,6 +383,7 @@ border-radius: 1em;
 max-width: calc(100% - 20em);
 /* max-height: 100%; */
 /* float: left; */
+box-shadow: 3px 3px 10px 1px #ccc;
 }
 .container
 {
@@ -435,6 +441,23 @@ font-size: x-large;
     /* font-size: .75em */
   }
 
+/* menu page */
+.drinkMenu{
+  height: fit-content;
+}
+.tableItem{
+  table-layout: fixed;
+-webkit-box-shadow: 0px 3px 25px 0px rgba(0,0,0,0.75);
+/* width: 50%; */
+position: inherit;
+/* display: table-column; */
+/* right: 20em; */
+border-collapse: collapse;
+border: 2px solid black;
+background-color: #c19191;
+width: auto;
+/* float: left; */
+}
   /* team */
   .staff-members-inner
   {
